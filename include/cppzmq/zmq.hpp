@@ -398,7 +398,7 @@ namespace zmq
                 throw error_t ();
         }
 
-        inline bool connected()
+        inline bool connected() const
         {
             return(ptr != NULL);
         }
